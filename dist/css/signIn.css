@@ -1,0 +1,162 @@
+/* ==========================================================================
+   RL Design Challenge 2016 Sign In custom styles
+   ========================================================================== */
+
+.heading1 {
+	color:#fff;
+	font-family:'Montserrat';
+	font-size:2em;
+	margin:0.6em 0;
+	text-transform:uppercase;
+}
+.heading2 {
+	color:#fff;
+	font-size:1.5em;
+	font-weight:normal;
+	margin:0.6em 0;
+}
+.heading3 {
+	color:#fff;
+	font-family:'Montserrat';
+	font-size:5em;
+	font-weight:normal;
+	line-height:1em;
+	margin:0;
+	text-transform:uppercase;
+}
+.heading4 {
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 1.6em;
+	font-weight: normal;
+	margin: 0.6em 0;
+}
+
+.wrapper {
+	background:#454545;
+	height:100%;
+	left:0;
+	max-height:1024px;
+	max-width:768px;
+	position:fixed;
+	top:0;
+	width:100%;
+}
+.slide {
+	height:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	transform:translateX(100%);
+	-webkit-transform:translateX(100%);
+	width:100%;
+}
+#slide1 {
+	transform:translateX(0);
+	-webkit-transform:translateX(0);
+}
+.shiftRight {
+	background:none;
+	border:none;
+	color:#fff;
+	left:0.5em;
+	font-size:3em;
+	outline:none;
+	position:absolute;
+	top:40%;
+}
+
+#nameList {
+	background:#fff;
+	border:none;
+	border-radius:0;
+	height:50px;
+	margin:1em 0 0;
+	max-width:400px;
+	outline:none;
+	padding:0.5em;
+	width:100%;
+}
+.challengeChoice {
+	background:#fff;
+	border:none;
+	border-radius:50%;
+	display:inline-block;
+	height:5em;
+	margin:2em 0 0;
+	outline:none;
+	width:5em;
+}
+.challengeChoice.active:before {
+	color:#4a4a4a;
+	content:"\f00c";
+	display:inline-block;
+	font-family:'FontAwesome';
+	font-size:3em;
+}
+.orangeUnderline,.blueUnderline {
+	min-height:130px;
+	padding:0 0 0.5em;
+}
+.orangeUnderline {
+	border-bottom:10px solid #f37422;
+}
+.blueUnderline {
+	border-bottom:10px solid #1aacd7;
+}
+
+#challengeChoiceText {
+	font-weight:600;
+}
+#challengeChoiceText.blue {
+	color:#1aacd7;
+}
+#challengeChoiceText.orange {
+	color:#f37422;
+}
+#confirmDetails {
+	background: none;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+	font-size: 5em;
+	height: 115px;
+	margin: 0.5em 0 0;
+	outline: medium none;
+	padding: 0;
+	width: 115px;
+}
+
+#resetPage {
+	background:none;
+	border:none;
+	bottom:0.5em;
+	color:#7c7c7c;
+	font-size:3em;
+	outline:none;
+	position:absolute;
+	right:0.5em;
+}
+
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   ========================================================================== */
+
+/* Large Desktop */
+@media screen and (min-width:1400px) {
+} 
+/* Standard Desktop */
+@media screen and (max-width:1400px) {
+}  
+@media screen and (max-width:1000px) and (min-width:700px) {
+}
+/* Standard Tablet */
+@media screen and (max-width:1024px) {
+}  
+/* Standard Tablet - Portrait Orientation */ 
+@media screen and (max-width:1024px) and (orientation:portrait) {
+}  
+/* Standard Smartphone */
+@media screen and (max-width:700px) {
+}

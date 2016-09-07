@@ -1,0 +1,72 @@
+/* ==========================================================================
+   RL Design Challenge 2016 - Group Assignments custom styles
+   ========================================================================== */
+
+h1 {
+	display:inline-block;
+	font-family:'Montserrat';
+	margin:0;
+	text-transform:uppercase;
+}
+
+p {
+	display:inline;
+	font-size:2em;
+	margin:0;
+}
+
+.col:first-child {
+	border-right:5px solid #fff;
+}
+
+.tile {
+	padding:2em;
+}
+
+.tile.group {
+	background:#4a4a4a;
+	border-bottom:2px solid #fff;
+	color:#fff;
+}
+.tile.group.orange {
+	background:#ed5e1b;
+}
+.tile.group.blue {
+	background:#1aacd7;
+}
+
+.tile.group h1 {
+	margin:0 0.2em 0 0;
+}
+.tile.group span {
+	font-size:2em;
+	vertical-align:bottom;
+}
+.tile.group span:before {
+	content:", "
+}
+.tile.group span:first-of-type:before {
+	content:"";
+}
+
+/* ==========================================================================
+   Media Queries for Responsive Design.
+   ========================================================================== */
+
+/* Large Desktop */
+@media screen and (min-width:1400px) {
+} 
+/* Standard Desktop */
+@media screen and (max-width:1400px) {
+}  
+@media screen and (max-width:1000px) and (min-width:700px) {
+}
+/* Standard Tablet */
+@media screen and (max-width:1024px) {
+}  
+/* Standard Tablet - Portrait Orientation */ 
+@media screen and (max-width:1024px) and (orientation:portrait) {
+}  
+/* Standard Smartphone */
+@media screen and (max-width:700px) {
+}
